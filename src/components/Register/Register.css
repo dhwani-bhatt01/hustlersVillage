@@ -1,0 +1,100 @@
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.register-card {
+  box-shadow: 0px 0px 10px #0000001a;
+  width: 30rem;
+  /* height: 30rem; */
+  margin-top: 5.4rem;
+  padding: 2.5rem;
+}
+
+.register-heading {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.rcard-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-desc {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.register-form {
+  margin-top: 2rem;
+}
+
+.register-name {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.register-name-tf {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.formtf {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.remail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.rtext {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.rtextf {
+  background: #edf2f7;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.register-pwd {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 0.8rem;
+}
+
+.rtour {
+  display: flex;
+  flex-direction: column;
+}
+
+.rbtn-tour {
+  background: #2d3748;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  padding: 0.8rem 0.6rem;
+  font-weight: 500;
+  width: 100%;
+  cursor: pointer;
+}
+
+.signUp-to-logIn {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.logIn-link {
+  color: #1b9cfc;
+  font-weight: 500;
+}
