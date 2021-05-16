@@ -2,12 +2,14 @@ import React from 'react'
 import './Navbar.css'
 import Arrow from '../../Assets/Icon metro-arrow-right.svg'
 import { Link } from 'react-router-dom'
+import MenuIcon from '@material-ui/icons/Menu';
 
 const Navbar = () => {
     return (
         <div className="navbar">
             <div className='navbar-container container'>
                 <h1><Link to='/' className="nav-logo">Hustlers Village</Link></h1>
+
                 <ul className="nav-link">
 
                     <Link to='/' className='nav-items'>
@@ -35,6 +37,11 @@ const Navbar = () => {
                     </Link>
 
                 </ul>
+
+                <div className="nav-menu-icon">
+                    <MenuIcon />
+                </div>
+
             </div>
         </div >
     )

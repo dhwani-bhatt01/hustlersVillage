@@ -15,9 +15,6 @@ function App() {
         <Route path="/LogIn" component={LogIn} />
         <Route path="/Register" component={Register} />
         <Route path="/Roles" component={UserCheck} />
-        {/* <LogIn /> */}
-        {/* <Register /> */}
-        {/* <UserCheck /> */}
       </Switch>
     </Router>
   );

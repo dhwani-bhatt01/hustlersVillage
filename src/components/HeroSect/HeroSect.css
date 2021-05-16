@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin: 4.5rem 0; */
   padding: 4rem 0 0 0;
 }
 
@@ -23,9 +22,10 @@
 }
 
 .hero-heading {
-  /* font-size: 2.2rem; */
   font-family: "Lora", serif;
   margin-top: 3rem;
+  text-align: center;
+  padding: 0 1rem;
 }
 
 .hero-heading span {
@@ -82,4 +82,14 @@
   height: 1rem;
   margin-right: 1rem;
   width: auto;
+}
+
+@media only screen and (max-width: 610px) {
+  .hero-form {
+    flex-direction: column;
+  }
+
+  .hero-btn {
+    margin-top: 2rem;
+  }
 }

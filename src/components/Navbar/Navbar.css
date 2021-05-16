@@ -1,7 +1,6 @@
 .navbar {
   position: fixed;
   width: 100%;
-  /* border-bottom: 1px solid #bebebe; */
 }
 
 .navbar-container {
@@ -9,7 +8,6 @@
   justify-content: space-between;
   align-items: center;
   margin: 0.4rem auto;
-  /* position: fixed; */
 }
 
 .nav-link {
@@ -57,6 +55,20 @@
   cursor: pointer;
 }
 
+.nav-menu-icon {
+  display: none;
+}
+
 .register-icon {
   margin-left: 0.7rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-link {
+    display: none;
+  }
+
+  .nav-menu-icon {
+    display: block;
+  }
 }
